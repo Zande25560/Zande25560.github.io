@@ -1,54 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="ASCII">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
+    <style>
+        p {
+            text-shadow: 2px;
+        }
+
+        h1 {
+            color: aqua;
+            text-decoration: solid;
+        }
+
+        h2 {
+            color: blueviolet;
+            text-decoration: solid;
+        }
+
+        h3 {
+            color: crimson;
+            text-decoration: solid;
+        }
+
+        h4 {
+            color: skyblue;
+            text-decoration: solid;
+        }
+
+        h5 {
+            color: brown;
+            text-decoration: solid;
+        }
+
+        #grad {
+            max-height: auto;
+            background: linear-gradient(to bottom right, crimson 0%, seagreen 100%)
+        }
+
+        #page {
+            background-color: rgb(55, 202, 80);
+            max-width: 100%;
+            height: 1080px;
+            margin: 5px;
+            box-shadow: 10px 10px 5px rgb(63, 63, 63);
+            font-family: sans-serif;
+            display: flexbox;
+        }
+
+        #grid {
+            background-color: rgba(54, 46, 54, 0.856);
+            width: 95%;
+            height: 80%;
+            display: flex;
+            margin: 20px auto 0px;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: baseline;
+        }
+
+        .link {
+            border: dotted;
+            border: #0000005e;
+            background-color: #ffe679;
+            padding: 5px;
+            width: 30%;
+            height: 67%;
+            /* margin: auto; */
+            margin: 25px 25px;
+            padding-left: 10px;
+
+        }
+
+        .roma {
+            border: solid;
+            border-width: 4px;
+            padding-left: 10px;
+            border-color: grey black black grey;
+            background-color: #ffe99f;
+            width: 95%;
+            margin: auto;
+            height: 30%;
+
+
+        }
+
+        #table {
+            justify-content: space-around;
+            display: flex;
+            background-color: rgba(28, 88, 218, 0.726);
+            width: 60%;
+            height: 90%;
+            flex-direction: column;
+            align-content: center;
+            margin: 5px;
+
+        }
+
+    </style>
 </head>
-<style>
-body{
 
-}
-.Sizer{
+<body id="grad">
+    <div id="page">
+        <div>
+            <h1>
+                <center>About Me</center>
+            </h1>
+        </div>
+        <marquee behavior="alternate">
+            <img src="download.jfif" width="125" height="82" alt="Smiley Face">
+            </marquee>
+        <div id="grid">
+            <div id="table">
 
-}
-p{
-text-shadow: 2px;
-}
-h1{
-color: aqua;
-text-decoration: solid;
-}
-h2{
-color: blueviolet;
-text-decoration: solid;
-}
-h3{
-color: crimson;
-text-decoration: solid;
-}
-h4{
-color: skyblue;
-text-decoration: solid;
-}
-h5{
-color: brown;
-text-decoration: solid;
-}
-.box{
-align-self: center;
-}
-#grad{
-background-color: seagreen;
-height: 100px;
-background-image: linear-gradient( crimson ,seagreen );
-}
-</style>
-<body>
-    <div id="grad">
-hehsejldksaj
-</div>
-<a href="page2.html">Link To Page 2</a>
+                <div class="roma">
+                    <h2>
+                        <bold>Beginning</bold>
+                    </h2>
+                    <p>
+                        <italic>This is a paragraph. This text is italics. The column these "blog posts" are in take up
+                            60% of the box the column is in. Hint I made the parent box a flexbox and justified the
+                            content to "space-around".</italic>
+                    </p>
+                </div>
+                <div class="roma">
+                    <h3>
+                        <bold>Middle</bold>
+                    </h3>
+                    <p>
+                        <italic>This is a paragraph. This text is italics. The column these "blog posts" are in take up
+                            60% of the box the column is in. Hint I made the parent box a flexbox and justified the
+                            content to "space-around".</italic>
+                    </p>
+                </div>
+                <div class="roma">
+                    <h4>
+                        <bold>End</bold>
+                    </h4>
+                    <p>
+                        <italic>This is a paragraph. This text is italics. The column these "blog posts" are in take up
+                            60% of the box the column is in. Hint I made the parent box a flexbox and justified the
+                            content to "space-around".</italic>
+                    </p>
+                </div>
+            </div>
+
+            <div class="link">
+                <p id="Sizer">
+                    This text is a paragraph, but not in italics because it's not in a "blog post"
+                </p>
+                <p id="Sizer">
+
+                    This is where the links go. This column takes up 30% of the box this column is in.
+                </p>
+                <H5 id="Sizer2">Links to other pages</H5>
+                <ul class="ulsizer">
+                    <li><a href="">RPG Maker</a></li>
+                    <li><a href="">Time at School</a></li>
+                    <li><a href="">Counter-Strike</a></li>
+                    <li><a href="">RPG Maker</a></li>
+                </ul>
+                <H5 id="Sizer2">Game Guides</H5>
+                <ul class="ulsizer">
+                    <li><a href="">Battledome Calc</a></li>
+                    <li><a href="">Rune Calc</a></li>
+                    <li><a href="">TWHL Mapping</a></li>
+                    <li><a href="">Don's RM2k World</a></li>
+                </ul>
+                <img src="The_Gold_Hoarder.webp" height="40%" width="40%">
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
