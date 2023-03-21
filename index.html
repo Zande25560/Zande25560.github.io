@@ -7,9 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
     <style>
-        p {
-            
-        }
+        p {}
 
         h1 {
             color: rgb(53, 61, 78);
@@ -38,18 +36,19 @@
         }
 
         #grad {
-            max-height: auto;
+            
             background: linear-gradient(to bottom right, crimson 0%, seagreen 100%)
         }
 
         #page {
-            background-color: rgb(55, 202, 80);
+            background-color: rgb(88, 168, 101);
             max-width: 100%;
             height: 1080px;
             margin: 5px;
             box-shadow: 10px 10px 5px rgb(63, 63, 63);
             font-family: sans-serif;
             display: flexbox;
+            align-self: center;
         }
 
         #grid {
@@ -57,7 +56,7 @@
             width: 95%;
             height: 80%;
             display: flex;
-            margin: 20px auto 0px;
+            margin: -15px auto 0px;
             justify-content: space-around;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -65,13 +64,13 @@
         }
 
         .link {
-            border: dotted;
-            border: #0000005e;
+            border: double;
+            border-color: rgb(85, 110, 62) rgb(39, 23, 23) rgb(39, 23, 23) rgb(111, 133, 75);
             background-color: #ffe679;
             padding: 5px;
             width: 30%;
             height: 67%;
-           
+
             margin: 25px 25px;
             padding-left: 10px;
 
@@ -85,7 +84,7 @@
             background-color: #ffe99f;
             width: 90%;
             margin: auto;
-            height: 30%;
+            height: 25%;
 
 
         }
@@ -103,10 +102,8 @@
         }
 
         #greed {
-            align-self:bottom;
-            
-            height:50%;
-            width:50%;
+          align-items: bottom;  
+            width: 50%;
         }
     </style>
 </head>
@@ -118,15 +115,15 @@
                 <center>About Me</center>
             </h1>
         </div>
-        <marquee behavior="alternate">
-            <img src="download.jfif" width="125" height="82" alt="Smiley Face">
+        <marquee behavior="alternate" scrollamount="80">
+            <img src="Koopa_Shell_Spin.webp" width="125" height="82" alt="Smiley Face">
         </marquee>
         <div id="grid">
             <div id="table">
 
                 <div class="roma">
                     <h2>
-                        <bold>Beginning</bold>
+                        <bold>History</bold>
                     </h2>
                     <p>
                         <italic>This is a paragraph. This text is italics. The column these "blog posts" are in take up
@@ -136,7 +133,7 @@
                 </div>
                 <div class="roma">
                     <h3>
-                        <bold>Middle</bold>
+                        <bold>What I like to do</bold>
                     </h3>
                     <p>
                         <italic>This is a paragraph. This text is italics. The column these "blog posts" are in take up
@@ -146,7 +143,7 @@
                 </div>
                 <div class="roma">
                     <h4>
-                        <bold>End</bold>
+                        <bold>Something here idk</bold>
                     </h4>
                     <p>
                         <italic>This is a paragraph. This text is italics. The column these "blog posts" are in take up
@@ -158,22 +155,21 @@
 
             <div class="link">
                 <p id="Sizer">
-                    This text is a paragraph, but not in italics because it's not in a "blog post"
+                    To see the next page Click RPG Maker under (Links too other pages)
                 </p>
                 <p id="Sizer">
-
-                    This is where the links go. This column takes up 30% of the box this column is in.
+                    If you want too see pictures of my wonderful friends Click (Pictures of friends)
                 </p>
                 <H5 id="Sizer2">Links to other pages</H5>
                 <ul class="ulsizer">
                     <li><a href="RPG_Maker.html">RPG Maker</a></li>
-                    <li><a href="">Time at School</a></li>
                     <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pictures of friends</a></li>
-
                 </ul>
                 <img id="greed" src="The_Gold_Hoarder.webp">
+
             </div>
         </div>
     </div>
 </body>
+
 </html>
